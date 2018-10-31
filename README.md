@@ -18,13 +18,14 @@ Then it performs the following action
 7. Recreates a new git repository
 8. Commits the changes as Initial commit
 
--
+
 TODO
 Provide an option in the scaffold.yml to rename directories
 
 Sample scaffold.yml
 
-git_source: 'gitrepo'
+```
+git_source: '/Users/pavithrakrishnan/learn/sample_repo'
 project_name: 'new_project_repo' 
 template_file_pattern: '*.j2'
 ignore_files: 
@@ -41,4 +42,5 @@ rename_folders:
 vars:
   package_name: 'new_project'
   description: 'something goes here' 
+```
 
